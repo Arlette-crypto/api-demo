@@ -88,3 +88,6 @@ jobs:
             echo "No errors found";
             exit 0
           fi
+
+      - name: Display your name
+        run: echo "Arlette Godson Freeman"
