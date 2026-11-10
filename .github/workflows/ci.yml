@@ -34,9 +34,7 @@ jobs:
       - name: Check PHP Syntax
         run: |
           find . -name "*.php" -exec php -l {} \;
-      - name: Let's divide by zero!
-        run: |
-          expr 1 / 0
+
       - name: Build Container
         run: |
           docker build -t api-demo .
